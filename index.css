@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+color: #f1f1f1;
+background: url('https://straatosphere-hj6ln2j1.netdna-ssl.com/wp-content/uploads/2019/03/dbzz-ss19-digital-2x1-3-1280x705.jpg') fixed;
+}
+
+.overlay {
+  background-color: rgba(24, 22, 42, 0.80);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+h1, h2, h3, li, .correctFeedback {
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.logo {
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 300 300' style='enable-background:new 0 0 300 300;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23D4D8D5;%7D .st1%7Bfill:%23C02826;%7D%0A%3C/style%3E%3Cpath class='st0' d='M65.8,258.5c-1.9-1-3.8-2.1-5.7-3.2l0,0l-0.2-0.1l-0.1-0.1c-20.7-12.9-37.1-30.6-47.5-51.3l0,0 C4.1,187.5,0,169.9,0,152.3l0,0c0-13.7,2.5-27.6,7.4-41l0,0c13.2-35.5,42.7-64.7,81-80.3l0,0c19.7-8.1,41.1-12.2,62.4-12.2l0,0 c3.8,0,7.7,0.1,11.5,0.4l0,0h0.2h0.2c8.2,0.8,13.4,1.7,21.5,3.6l0,0l-0.8,1.4c0,0-6.2-0.3-15.8-0.3c0,0-26-0.2-47.6,7.7 S73.6,56,54.9,77.9l0,0c-21.4,25-31.9,55.6-31.9,85l0,0c0,34.6,12.7,69.8,40.8,90.7c0,0,8.1,6,11.7,8.1l-0.3,1.4 C72,261.7,68.9,260.1,65.8,258.5L65.8,258.5z'/%3E%3Cpath class='st0' d='M234.2,41.5c1.9,1,3.8,2.1,5.7,3.2l0,0l0.2,0.1l0.1,0.1c20.7,12.9,37.1,30.6,47.5,51.3l0,0 c8.2,16.3,12.3,33.9,12.3,51.6l0,0c0,13.7-2.5,27.6-7.4,41l0,0c-13.2,35.5-42.7,64.7-81,80.3l0,0c-19.7,8.1-41.1,12.2-62.4,12.2l0,0 c-3.8,0-7.7-0.1-11.5-0.4l0,0h-0.2h-0.2c-8.2-0.8-13.4-1.7-21.5-3.6l0,0l0.8-1.4c0,0,6.2,0.3,15.8,0.3c0,0,26,0.2,47.6-7.7 c21.6-7.9,46.4-24.4,65.1-46.3l0,0c21.4-25,31.9-55.6,31.9-85l0,0c0-34.6-12.7-69.8-40.8-90.7c0,0-8.1-6-11.7-8.1l0.3-1.4 C228,38.3,231.1,39.9,234.2,41.5L234.2,41.5z'/%3E%3Cpolygon class='st0' points='94.9,192.8 178,76.8 87.2,76.8 67.5,104.1 116.2,104.1 52.1,193.3 52.1,220.3 132.2,220.2 151.9,192.7 '/%3E%3Cpath class='st1' d='M241,190.5c2.8-6.2,4.2-12.9,4.2-20.1c0-8.4-1.7-15.3-5-21s-8-10.3-14-13.7c-5-2.8-10.8-4.9-17.4-6.3 c-6.6-1.4-13.8-2-21.6-2c-1.6,0-3.8,0.1-3.8,0.1l-3.2,0.3l17-23.7H242V76.8h-57.2L132,150.4c8.6,0,32.2,0,37.2,0 c3.9,0,8.6,0.3,13.9,0.9c5.5,0.6,10.3,2.1,14.3,4.4c2.8,1.6,5.1,3.7,6.8,6.4c1.8,2.7,2.6,5.9,2.6,9.6c0,4.2-0.6,7.6-2.1,10.3 c-1.4,2.6-5.2,6.1-7.6,7.2c-1.8,0.8-7.6,2.9-10.1,3.2c-5.2,0.6-11.1,0.4-13.4,0.4c-4.2,0-14.8,0-14.8,0L139,220.2 c1.3,0,5.3,0,10.2,0c9.4,0,21.9,0,33.2-0.5s21.5-1.4,25.9-2.9c7.8-2.5,14.5-5.9,20-10.4C234,202,238.2,196.7,241,190.5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.questionAnswerForm {
+    display: none;
+}
+
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #c02826;
+    color: #f1f1f1;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    text-align: left;
+}
+button:hover, button:focus {
+    background-color: #f1f1f1;
+    color: #111111;
+}
+
+header, main {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+fieldset {
+    border: none;
+    border-radius: .5rem;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px;
+    max-width: 767px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+label {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+label span {
+  padding-left: 10px;
+}
